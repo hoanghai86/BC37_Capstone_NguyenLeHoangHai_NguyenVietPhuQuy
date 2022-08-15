@@ -1,0 +1,31 @@
+Bài tập tổng hợp (DEADLINE 31/08/2022)
+Các nhóm chọn một trong 6 layout bên dưới:
+1. https://demo.w3layouts.com/demos_new/template_demo/02-07-
+2020/pooch-care-liberty-demo_Free/1396504601/web/index.html
+2. https://demo.w3layouts.com/demos_new/template_demo/03-03-
+2021/masterwork-liberty-demo_Free/423112365/web/index.html
+3. https://wp.w3layouts.com/farmstead/
+4. https://wp.w3layouts.com/corpvision/
+5. https://demo.w3layouts.com/demos_new/template_demo/13-03-
+2021/studious-liberty-demo_Free/425342591/web/index.html
+6. https://demo.w3layouts.com/demos_new/template_demo/01-02-
+2021/diner-liberty-demo_Free/668605264/web/index.html
+
+*************************************************************************************************************************************
+YÊU CẦU
+Mỗi nhóm chọn 1 trong số 6 website để làm. Chọn bất kì 6 trang trên navigation bar (trừ trang 404 Page Not Found), không cần làm hết.
+Đối với trang nào có navbar là dạng nút nhấn vào xổ ra, các bạn đc phép đổi giao diện thành dạng navbar nằm ngang như bài meipaly đã làm.
+Làm full animation và responsive.
+Chi tiết bài tập thì giảng viên đã có nói qua vào buổi học 10, bạn nào chưa theo dõi có thể coi lại qua record.
+CÁCH NỘP BÀI
+Sau khi làm xong thì cách nộp bài như sau:
+Khi nộp bài các bạn nộp 3 link như sau vào các ô nộp bài tập trên hệ thống theo thứ tự (các bạn tham khảo hình ảnh đính kèm phía dưới giúp mình)
++ Link github
++ Link youtube quay màn hình demo dự án (Các bạn có thể dùng phần mềm record màn hình, demo sơ qua dự án và quay lại, up lên youtube và nộp link)
++ Link Web với vercel (thứ 4 sẽ hướng dẫn)
++ CHÚ Ý: Về phần phân công, các bạn điền đầy đủ theo file cung cấp sẵn và đính kèm vào source code nhé (Template Task: https://docs.google.com/.../1x09jlcTluBMrKsYl4qIZ.../edit...)
+*************************************************************************************************************************************
+GHI CHÚ
+- chỉ cần làm giao dện, mấy cái nhất nút, nhấn trượt hay lướt cũng ko làm luôn
+- mấy cái hiệu ứng popup, light/dark theme, slider, theme không làm
+- làm mấy cái animation mình học thôi
