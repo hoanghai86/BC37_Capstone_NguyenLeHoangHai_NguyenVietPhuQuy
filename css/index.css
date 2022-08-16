@@ -11,7 +11,7 @@ html {
   box-sizing: border-box;
 }
 
-/* *************************************HEADER */
+/* ***********************************************************************************HEADER */
 /* format thẻ Pooch Care */
 header .navbar-brand {
   margin: 0;
@@ -86,7 +86,7 @@ header{
 }
 
 
-/* ******************************FOOTER */
+/* ********************************************************************************FOOTER */
 /* format 4 font icon: facebook, twitter, google... */
 footer .main-social-footer-28 li {
   display: inline-block;
