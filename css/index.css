@@ -11,6 +11,18 @@ html {
   box-sizing: border-box;
 }
 
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 1280px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
 /* ***********************************************************************************HEADER */
 /* format thẻ Pooch Care */
 header .navbar-brand {
@@ -27,62 +39,58 @@ header .nav-link:hover {
   color: #189a46 !important;
 }
 
-header .nav-link span{
-    position: relative;
+header .nav-item span:hover {
+  color: #189a46;
+}
+
+header .nav-link span {
+  position: relative;
 }
 
 /* tạo 1 div after của thẻ span (đường gạch chân màu xanh của các nút Home, About...)  */
-header .nav-link span::after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #189a46;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.5s;
+header .nav-link span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #189a46;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
 }
 
 /* hover thẻ span thì chiều dài div after dài ra 100% */
-header .nav-link span:hover::after{
-    opacity: 1;
-    visibility: visible;
-    width: 100%;
+header .nav-link span:hover::after {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
 }
 
-header .nav-item span{
-    position: relative;
+header .nav-item span {
+  position: relative;
 }
 
 /* tạo 1 div cho thẻ span trong dropdown */
-header .nav-item span::after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left:0;
-    width: 0;
-    height: 2px;;
-    background-color: #189a46;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.5s;
+header .nav-item span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #189a46;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
 }
 
 /* hover thẻ span thì chiều dài div after dài ra 100% */
-header .nav-item span:hover::after{
-    opacity: 1;
-    visibility: visible;
-    width: 100%;
-}
-
-header{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    z-index: 10;
+header .nav-item span:hover::after {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
 }
 
 
@@ -119,6 +127,56 @@ footer ul {
 }
 
 /* kẻ đường thẳng phía trên copy right */
-footer .midd-footer-28{
-    border-top: 1px solid rgba(103, 99, 99, 0.14);
+footer .midd-footer-28 {
+  border-top: 1px solid rgba(103, 99, 99, 0.14);
+}
+
+/* ******************************************CAROUSEL */
+/* format nút red more */
+.slideshow .btn_readmore {
+  padding: 12px 35px;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: 0.3s ease-in;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #189a46;
+  text-decoration: none;
+}
+
+/* format nút contact */
+.slideshow .btn_contact {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 35px;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: 0.3s ease-in;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* hover nút contact */
+.slideshow .btn_contact:hover {
+  color: #189a46;
+  background: #fff;
+}
+
+.slideshow .carousel-caption {
+  right: 10%;
+}
+
+/* chỉnh vị trí carousel-caption 1 */
+.slideshow .carousel-caption.caption1 {
+  bottom: 50%;
+}
+
+/* chỉnh vị trí carousel-caption 2 */
+.slideshow .carousel-caption.caption2 {
+  bottom: 40%;
+  left: 40%;
 }
