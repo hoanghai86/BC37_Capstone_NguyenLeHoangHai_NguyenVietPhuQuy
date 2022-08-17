@@ -93,7 +93,6 @@ header .nav-item span:hover::after {
   width: 100%;
 }
 
-
 /* ********************************************************************************FOOTER */
 /* format 4 font icon: facebook, twitter, google... */
 footer .main-social-footer-28 li {
@@ -179,4 +178,24 @@ footer .midd-footer-28 {
 .slideshow .carousel-caption.caption2 {
   bottom: 40%;
   left: 40%;
+}
+
+/* *****************************************************************ABOUT US */
+/* format nút Read more */
+.aboutUs .read {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0;
+  border-bottom: 2px solid #189a46;
+  color: #000c04;
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
+  border-radius: 0;
+  margin-top: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.aboutUs .read:hover{
+  color: #189a46;
 }
