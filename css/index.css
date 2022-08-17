@@ -130,7 +130,7 @@ footer .midd-footer-28 {
   border-top: 1px solid rgba(103, 99, 99, 0.14);
 }
 
-footer .row{
+footer .row {
   margin: 0 0;
 }
 
@@ -200,28 +200,27 @@ footer .row{
   text-transform: capitalize;
 }
 
-.aboutUs .read:hover{
+.aboutUs .read:hover {
   color: #189a46;
 }
 
-
 /* ******************************************************************FEATURES */
 /* format các area box */
-.features .area-box{
+.features .area-box {
   padding: 40px 30px;
-    transition: all 0.5s ease 0s;
-    border-radius: 10px;
-    background-color: #fff;
-    /* position: relative; */
-    margin-bottom: 30px;
+  transition: all 0.5s ease 0s;
+  border-radius: 10px;
+  background-color: #fff;
+  /* position: relative; */
+  margin-bottom: 30px;
 }
 
 /* format nút read more */
-.features .read{
+.features .read {
   text-decoration: none;
   font-size: 1.2rem;
   padding: 0;
-  border-bottom: 2px solid #189A46;
+  border-bottom: 2px solid #189a46;
   color: #000c04;
   transition: 0.3s ease-in-out;
   font-weight: 600;
@@ -232,29 +231,28 @@ footer .row{
 }
 
 /* hover nút read more */
-.features .read:hover{
-  color: #189A46;
+.features .read:hover {
+  color: #189a46;
 }
-
 
 /* *************************************************SERVICES */
 /* chỉnh toàn bộ text bên phải căn giữa trên dưới */
-.services .cwp4-text{
+.services .cwp4-text {
   align-self: center;
 }
 
 /* format text "Why we choose us" */
-.services .sub-title{
-    font-size: 1.25rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    line-height: 2em;
-    letter-spacing: 1px;
-    color: #f53626;
+.services .sub-title {
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2em;
+  letter-spacing: 1px;
+  color: #f53626;
 }
 
 /* format text "What we offer..." */
-.services .hny-title{
+.services .hny-title {
   font-size: 40px;
   font-weight: 600;
   line-height: 48px;
@@ -278,10 +276,32 @@ footer .row{
 
 /* format font icon(nút tròn_ */
 .services ul.cont-4 li span.fa {
-  color: #189A46;
+  color: #189a46;
   margin-right: 12px;
   background: rgba(147, 107, 232, 0.05);
   font-size: 0.625rem;
   padding: 8px;
   border-radius: 50%;
+}
+
+/* *********************************************NUMBER */
+/* format dãy số */
+.number p.counter {
+  font-size: 3.125rem;
+  line-height: 60px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+/* format hàng chữ */
+.number h4 {
+  font-size: 1.25rem;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #fff;
+  margin-top: 10px;
+  opacity: 0.8;
+  font-weight: 400;
 }
