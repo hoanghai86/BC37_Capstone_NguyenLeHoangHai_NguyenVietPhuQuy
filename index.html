@@ -16,8 +16,10 @@
     
 
     <!-- own carousel -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     
+
     <!-- https://animate.style/ -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -421,23 +423,82 @@
     <!-- ******************TERMINALS*************** -->
     <section class="terminals">
       <div class="container">
-          <div class="title">
-              <p>Testimonial</p>
-              <h2>What Our Clients Say's</h2>
+          <div class="title text-center">
+              <p class="text-danger fs-4 pt-3">Testimonial</p>
+              <h2 class="mb-5 fw-bold">Happy Clients & Feedbacks</h2>
           </div>
 
-          <div class="terminals_content">
+          <div class="container_row">
+            <div class="terminals_content owl-carousel">
               <div class="terminals_items">
-                <p class="terminals_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolor sit amet!</p>
-                <div class="terminals_card">
-                  <img src="./img/6.jpg" alt="">
+                <p class="terminals_text mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolor sit amet!</p>
+                <div class="terminals_card d-inline-flex justify-content-start">
+                  <img src="./img/6.jpg" alt="" class="rounded-circle">
                   <div class="terminals_info">
-                    <h3 class="name">John wilson</h3>
-                    <p class="city">Example City</p>
+                    <h3 class="name fs-5">John wilson</h3>
+                    <p class="city fs-6">Example City</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="terminals_items">
+                <p class="terminals_text mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolor sit amet!</p>
+                <div class="terminals_card d-inline-flex justify-content-start">
+                  <img src="./img/7.jpg" alt="" class="rounded-circle">
+                  <div class="terminals_info">
+                    <h3 class="name fs-5">John wilson</h3>
+                    <p class="city fs-6">Example City</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="terminals_items">
+                <p class="terminals_text mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolor sit amet!</p>
+                <div class="terminals_card d-inline-flex justify-content-start">
+                  <img src="./img/8.jpg" alt="" class="rounded-circle">
+                  <div class="terminals_info">
+                    <h3 class="name fs-5">John wilson</h3>
+                    <p class="city fs-6">Example City</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="terminals_items">
+                <p class="terminals_text mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolor sit amet!</p>
+                <div class="terminals_card d-inline-flex justify-content-start">
+                  <img src="./img/9.jpg" alt="" class="rounded-circle">
+                  <div class="terminals_info">
+                    <h3 class="name fs-5">John wilson</h3>
+                    <p class="city fs-6">Example City</p>
                   </div>
                 </div>
               </div>
               
+              <div class="terminals_items">
+                <p class="terminals_text mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolor sit amet!</p>
+                <div class="terminals_card d-inline-flex justify-content-start">
+                  <img src="./img/7.jpg" alt="" class="rounded-circle">
+                  <div class="terminals_info">
+                    <h3 class="name fs-5">John wilson</h3>
+                    <p class="city fs-6">Example City</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="terminals_items">
+                <p class="terminals_text mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolor sit amet!</p>
+                <div class="terminals_card d-inline-flex justify-content-start">
+                  <img src="./img/8.jpg" alt="" class="rounded-circle">
+                  <div class="terminals_info">
+                    <h3 class="name fs-5">John wilson</h3>
+                    <p class="city fs-6">Example City</p>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+          
 
 
 
@@ -558,24 +619,66 @@
     <!-- boostrap -->
 
 
- <!-- video popup -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
- <script>
-    $(document).ready(function () {
-    $(".popup-with-zoom-anim").magnificPopup({
-    type: "inline",
-    fixedContentPos: false,
-    fixedBgPos: true,
-    overflowY: "auto",
-    closeBtnInside: true,
-    preloader: false,
-    midClick: true,
-    removalDelay: 300,
-    mainClass: "my-mfp-zoom-in"
-    });
-    });
-  </script>
-  <!-- //video popup -->
+    <!-- video popup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function () {
+        $(".popup-with-zoom-anim").magnificPopup({
+        type: "inline",
+        fixedContentPos: false,
+        fixedBgPos: true,
+        overflowY: "auto",
+        closeBtnInside: true,
+        preloader: false,
+        midClick: true,
+        removalDelay: 300,
+        mainClass: "my-mfp-zoom-in"
+        });
+        });
+      </script>
+      <!-- //video popup -->
+
+  <!-- own carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script>      
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,          
+        responsive:{
+        0:{
+            items:1,
+            nav:true,
+            loop:true
+        },
+        576:{
+            items:1,
+            nav:true,
+            loop:true
+        },
+        768:{
+            items:2,
+            nav:true,
+            loop:true
+        },
+        992:{
+            items:2,
+            nav:true,
+            loop:true,
+        },
+        1200:{
+            items:2,
+            nav:true,
+            loop:true
+        }
+    }
+})
+    </script>
+  
+
+
+  <!-- own carousel -->
 
 
   </body>

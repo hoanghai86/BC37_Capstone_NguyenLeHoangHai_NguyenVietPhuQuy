@@ -886,3 +886,54 @@ button::-moz-focus-inner {
   }
 }
 /************************************* Styles for dialog window */
+
+/* **********************************TERMINALS */
+.terminals{
+  background-color: #347083;
+}
+
+.terminals .terminals_info {
+  padding-left: 10px;
+  align-self: center;
+}
+
+.terminals .terminals_info h3, p{
+  margin: 0;
+}
+
+.terminals .terminals_info h3{
+  font-weight: 600;
+}
+
+.terminals .terminals_info p{
+  color: #777777;
+  font-size: 1rem;
+}
+
+.terminals .terminals_card img{
+  width: 20%;
+  height: 20%;
+}
+
+.terminals .terminals_items .terminals_text{
+  font-size: 1rem;
+  line-height: 28px;
+  color: #696969;
+}
+
+.terminals .terminals_items{
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 40px 30px;
+  border: none;
+  box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
+  text-align: left;
+}
+
+.terminals .container_row{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
