@@ -387,21 +387,18 @@
     </section>
 
     <!-- ******************VIDEO**************** -->
-    <section class="video" id="about">
+    <section class="player" id="about">
       <div class="new-block py-5">
           <div class="container py-lg-5">
               <div class="middle-section text-center">
                   <div class="section-width">
-                    <h6 class="sub-title text-center"> Better pet nutrition.</h6>
-                      <h3 class="hny-title"> The finest fresh food and all your pet needs.</h3>
-                      <p class="mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet elit consec tetur adipisi elit.
-    
-                        Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Iure voluptatibus explicabo
-                          officia.</p>
+                    <h6 class="sub-title text-center text-danger fs-5"> Better pet nutrition.</h6>
+                      <h3 class="hny-title mb-5 fw-bold"> The finest fresh food and all your pet needs.</h3>
+                      <p class="mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Iure voluptatibus explicabo officia.</p>
                   </div>
                   <div class="history-info mt-5">
                       <div class="position-relative">
-                          <img src="./img/3.jpg" class="img-fluid radius-image video-popup-image" alt="video-popup">
+                          <img src="./img/3.jpg" class="img-fluid" alt="video-popup" style="border-radius: 15px;">
     
                           <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
                               <span class="video-play-icon">
@@ -410,23 +407,16 @@
                           </a>
     
                           <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
-                          <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                          <div id="small-dialog" class="zoom-anim-dialog mfp-hide ">
                             <iframe src="https://player.vimeo.com/video/101587706" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
                             </div>
                       </div>
                   </div>
-    
-                  <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
-                  <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-                    <iframe src="https://player.vimeo.com/video/101587706" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
-                  </div>
+
               </div>
           </div>
       </div>
     </section>
-
-
-
 
 
 
@@ -525,11 +515,37 @@
     </footer>
  
 
+    <!-- Thư viện Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!-- boostrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <!-- boostrap -->
+
+
+ <!-- video popup -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+ <script>
+    $(document).ready(function () {
+    $(".popup-with-zoom-anim").magnificPopup({
+    type: "inline",
+    fixedContentPos: false,
+    fixedBgPos: true,
+    overflowY: "auto",
+    closeBtnInside: true,
+    preloader: false,
+    midClick: true,
+    removalDelay: 300,
+    mainClass: "my-mfp-zoom-in"
+    });
+    });
+  </script>
+  <!-- //video popup -->
+
+
   </body>
 </html>
