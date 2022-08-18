@@ -888,8 +888,8 @@ button::-moz-focus-inner {
 /************************************* Styles for dialog window */
 
 /* **********************************TERMINALS */
-.terminals{
-  background-color: #347083;
+.terminals .container{
+  background-color: rgba(147, 107, 232, 0.05);
 }
 
 .terminals .terminals_info {
