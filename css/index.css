@@ -370,7 +370,7 @@ footer .row {
   font-weight: 400;
 }
 
-.pricing .pricing-gd-left.pric-7.active .pricing-7-top h4 span{
+.pricing .pricing-gd-left.pric-7.active .pricing-7-top h4 span {
   color: #fff;
 }
 
@@ -466,7 +466,7 @@ footer .row {
 }
 
 /* *******************************************************************************VIDEO */
-
+/* tạo hiệu ứng sóng lan cho nút play */
 @keyframes ripple {
   0% {
     box-shadow: 0 0 0 0 rgba(15, 162, 66, 0.164),
@@ -479,6 +479,7 @@ footer .row {
   }
 }
 
+/* format nút play nhạc */
 .player span.video-play-icon {
   background: #fff;
   display: inline-block;
@@ -502,6 +503,7 @@ footer .row {
   line-height: 55px;
 }
 
+/* đẩy nút play nhạc vô giữa tấm hình */
 .player .play-view {
   left: 0;
   right: 0;
@@ -923,7 +925,7 @@ button::-moz-focus-inner {
     top: -30px;
   }
 }
-/************************************* Styles for dialog window */
+/************************************* Format popup video */
 
 /* **********************************TERMINALS */
 .terminals .container {
@@ -949,6 +951,7 @@ p {
   font-size: 1rem;
 }
 
+/* fotmat tấm hình của card */
 .terminals .terminals_card img {
   width: 20%;
   height: 20%;
@@ -975,3 +978,82 @@ p {
   margin: auto;
   text-align: center;
 }
+
+/* ***********************************STAY UPDATE */
+.bottom .header-section p.my-3 {
+  padding: 0 10%;
+}
+
+/* flex đẩy email và button lên 1 hàng */
+.bottom form .subscribe {
+  display: flex;
+  justify-content: center;
+}
+
+/* format input email */
+.bottom form .subscribe input {
+  font-size: 16px;
+  color: #696969;
+  border-radius: 10px;
+  padding: 0px 20px;
+  height: 60px;
+  flex-basis: 30%;
+  margin-right: 20px;
+  background: #fff;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: #189a46;
+}
+
+/* format nút button subscribe */
+.bottom form .subscribe button {
+  padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+    background-color: #189a46;
+    border: #189a46;
+}
+
+/* hover đổi màu nút button subscribe */
+.bottom form .subscribe button:hover{
+  background-color: #116e32;
+}
+
+/* ****************************BACK TO TOP */
+/* sử dụng thư viện https://codyhouse.co/gem/back-to-top để chỉnh nút back to top */
+.cd-top {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #189a46;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  position: fixed; /* giúp thẻ di chuyển theo khi người dùng scroll web */
+  right: 15px;
+  bottom: 15px;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out {
+  opacity: 0.5;
+}
+
+.cd-top:hover {
+  opacity: 1;
+  color: white;
+}
+/* ****************************BACK TO TOP */

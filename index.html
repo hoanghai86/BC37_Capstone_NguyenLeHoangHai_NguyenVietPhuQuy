@@ -507,7 +507,26 @@
       </div>
       
       
-  </section>
+    </section>
+
+    <!-- ****************** STAY UPDATED************* -->
+    <section class="bottom py-5">
+      <div class="container py-md-4 py-3 text-center">
+              <div class="header-section text-center mx-auto">
+                <h3 class="hny-title fs-1">Stay Updated! </h3>
+                <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                  Nulla mollis dapibus nunc, ut rhoncus
+                  turpis sodales quis. Integer sit amet mattis quam.</p>
+              </div>
+              <form action="#">
+                <div class="subscribe">
+                  <input class="form-control" type="email" placeholder="Enter your email..." name="email" required="">
+                  <button class="btn btn-style btn-primary" type="submit">Subscribe</button>
+                </div>
+              </form>                   
+        </div>
+      </div>
+    </section>
 
 
 
@@ -604,12 +623,16 @@
             </div>
       </div>
     </footer>
- 
+
+    <!-- ------------NÚT BACK TO TOP-------- -->
+    <a href="#" class="cd-top text-replace js-cd-top"><i class="fa fa-arrow-up"></i></a>
+
 
     <!-- *****************************JAVASCRIPT***************************** -->
-    <!-- Thư viện Jquery -->
+    <!-- Thư viện Jquery, Waypoint -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script src="./js/jquery.waypoints.min.js"></script>
+  
     <!-- boostrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -659,10 +682,18 @@ responsive:{
 }
 })
 </script>
+<!-- own carousel -->
+
+<!-- sử dụng thư viện https://codyhouse.co/gem/back-to-top để chỉnh nút back to top -->
+<script src="./js/main.js"></script>
+<script src="./js/util.js"></script>
   
 
-
-  <!-- own carousel -->
+  <!-- Thư viện CountUp -->
+  <script src="./js/jquery.countup.js"></script>
+  <script>
+      $('.counter').countUp();
+  </script>
 
 
   </body>
