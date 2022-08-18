@@ -1057,3 +1057,21 @@ p {
   color: white;
 }
 /* ****************************BACK TO TOP */
+
+/* *******************************RESPONSIVE********************************* */
+@media screen and (max-width: 1200px){
+
+}
+
+@media screen and (max-width: 900px){
+
+}
+
+@media screen and (max-width: 768px){
+  
+}
+
+
+@media screen and (max-width: 576px){
+
+} 
