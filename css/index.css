@@ -184,7 +184,6 @@ footer .row {
   left: 40%;
 }
 
-
 /* *****************************************************************ABOUT US */
 /* format nút Read more */
 .aboutUs .read {
@@ -214,6 +213,19 @@ footer .row {
   background-color: #fff;
   /* position: relative; */
   margin-bottom: 30px;
+}
+
+/* đổi màu các box khi hover */
+.features .area-box:hover {
+  background: rgba(147, 107, 232, 0.05);
+}
+
+.features .area-box h4.py-3 {
+  cursor: pointer;
+}
+
+.features .area-box h4.py-3:hover a {
+  color: #189a46 !important;
 }
 
 /* format nút read more */
@@ -346,6 +358,22 @@ footer .row {
   color: #189a46;
 }
 
+.pricing .pricing-7-top h4 label {
+  font-size: 25px;
+  vertical-align: text-top;
+}
+
+.pricing .pricing-7-top h4 span {
+  font-size: 16px;
+  line-height: 25px;
+  color: #999;
+  font-weight: 400;
+}
+
+.pricing .pricing-gd-left.pric-7.active .pricing-7-top h4 span{
+  color: #fff;
+}
+
 .pricing .pricing-7-bottom {
   padding-top: 1em;
 }
@@ -373,7 +401,7 @@ footer .row {
   border-top-left-radius: 5px;
 }
 
-.pricing .pricing-gd-left.pric-7.active .pricing-7-bottom{
+.pricing .pricing-gd-left.pric-7.active .pricing-7-bottom {
   padding: 2em 2.5em 3.5em;
 }
 
@@ -431,27 +459,25 @@ footer .row {
   border: none;
 }
 
-.pricing .buy-button a:hover{
+.pricing .buy-button a:hover {
   color: #fff;
-  background: #116E32;
-  border-color: #116E32;
+  background: #116e32;
+  border-color: #116e32;
 }
-
 
 /* *******************************************************************************VIDEO */
 
-
 @keyframes ripple {
   0% {
-    box-shadow: 0 0 0 0 rgba(15, 162, 66, 0.164), 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25);
+    box-shadow: 0 0 0 0 rgba(15, 162, 66, 0.164),
+      0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25);
   }
 
   100% {
-    box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
+    box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25),
+      0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
   }
 }
-
-
 
 .player span.video-play-icon {
   background: #fff;
@@ -482,11 +508,10 @@ footer .row {
   top: calc(50% - 40px);
 }
 
-.player .section-width p{
+.player .section-width p {
   padding: 0 15%;
   color: #696969;
 }
-
 
 /********************************************** Format popup video */
 #small-dialog,
@@ -901,7 +926,7 @@ button::-moz-focus-inner {
 /************************************* Styles for dialog window */
 
 /* **********************************TERMINALS */
-.terminals .container{
+.terminals .container {
   background-color: rgba(147, 107, 232, 0.05);
 }
 
@@ -910,31 +935,32 @@ button::-moz-focus-inner {
   align-self: center;
 }
 
-.terminals .terminals_info h3, p{
+.terminals .terminals_info h3,
+p {
   margin: 0;
 }
 
-.terminals .terminals_info h3{
+.terminals .terminals_info h3 {
   font-weight: 600;
 }
 
-.terminals .terminals_info p{
+.terminals .terminals_info p {
   color: #777777;
   font-size: 1rem;
 }
 
-.terminals .terminals_card img{
+.terminals .terminals_card img {
   width: 20%;
   height: 20%;
 }
 
-.terminals .terminals_items .terminals_text{
+.terminals .terminals_items .terminals_text {
   font-size: 1rem;
   line-height: 28px;
   color: #696969;
 }
 
-.terminals .terminals_items{
+.terminals .terminals_items {
   margin-bottom: 20px;
   border-radius: 10px;
   background-color: #fff;
@@ -944,9 +970,8 @@ button::-moz-focus-inner {
   text-align: left;
 }
 
-.terminals .container_row{
+.terminals .container_row {
   width: 70%;
   margin: auto;
   text-align: center;
 }
-
