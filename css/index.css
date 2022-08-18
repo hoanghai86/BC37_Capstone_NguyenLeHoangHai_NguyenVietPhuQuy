@@ -472,8 +472,6 @@ footer .row {
   left: 0;
   right: 0;
   top: calc(50% - 40px);
-
-
 }
 
 
@@ -605,7 +603,7 @@ a.play-icon.popup-with-zoom-anim img:hover {
   z-index: 1043;
   position: fixed;
   outline: none !important;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
 }
 
 .mfp-container {
