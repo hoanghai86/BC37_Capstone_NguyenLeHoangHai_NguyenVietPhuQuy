@@ -429,7 +429,7 @@
           </div>
 
           <div class="container_row">
-            <div class="terminals_content owl-carousel">
+            <div class="terminals_content owl-carousel owl-theme">
               <div class="terminals_items">
                 <p class="terminals_text mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolor sit amet!</p>
                 <div class="terminals_card d-inline-flex justify-content-start">
@@ -641,41 +641,24 @@
   <!-- own carousel -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-  <script>      
+  <script>
     $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:20,
-        nav:true,
-        responsiveClass:true,          
-        responsive:{
-        0:{
-            items:1,
-            nav:true,
-            loop:true
-        },
-        576:{
-            items:1,
-            nav:true,
-            loop:true
-        },
-        768:{
-            items:2,
-            nav:true,
-            loop:true
-        },
-        992:{
-            items:2,
-            nav:true,
-            loop:true,
-        },
-        1200:{
-            items:2,
-            nav:true,
-            loop:true
-        }
+loop:true,
+margin:10,
+nav:false,
+responsive:{
+    0:{
+        items:1
+    },
+    600:{
+        items:2
+    },
+    1000:{
+        items:2
     }
+}
 })
-    </script>
+</script>
   
 
 
