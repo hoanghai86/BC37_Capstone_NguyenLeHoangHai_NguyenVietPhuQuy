@@ -137,7 +137,7 @@ footer .row {
 /* ********************************************************************CAROUSEL */
 /* format nút red more */
 .slideshow .btn_readmore {
-  padding: 12px 35px;
+  padding: 10px 35px;
   font-size: 18px;
   line-height: 28px;
   text-transform: capitalize;
@@ -202,6 +202,11 @@ footer .row {
 
 .aboutUs .read:hover {
   color: #189a46;
+}
+
+.aboutUs p.my-3 {
+  color: #696969;
+  text-align: center;
 }
 
 /* ******************************************************************FEATURES */
@@ -1009,18 +1014,18 @@ p {
 /* format nút button subscribe */
 .bottom form .subscribe button {
   padding: 12px 35px;
-    font-size: 18px;
-    line-height: 28px;
-    text-transform: capitalize;
-    font-weight: 400;
-    transition: 0.3s ease-in;
-    border-radius: 10px;
-    background-color: #189a46;
-    border: #189a46;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: 0.3s ease-in;
+  border-radius: 10px;
+  background-color: #189a46;
+  border: #189a46;
 }
 
 /* hover đổi màu nút button subscribe */
-.bottom form .subscribe button:hover{
+.bottom form .subscribe button:hover {
   background-color: #116e32;
 }
 
@@ -1059,19 +1064,168 @@ p {
 /* ****************************BACK TO TOP */
 
 /* *******************************RESPONSIVE********************************* */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+  /* Tắt biểu tượng sáng tối */
+  header .moon-sun {
+    display: none;
+  }
+
+  header .container-fluid{
+    padding: 0 25px;
+  }
+
+  .slideshow .carousel-caption {
+    display: block !important;
+    color: black;
+    position: initial;
+    text-align: center !important;
+  }
+
+  .slideshow .btn_readmore {
+    background-color: #189a46;
+    color: #fff;
+    padding: 10px 80px;
+  }
+
+  .slideshow .btn_contact {
+    background-color: #189a46;
+    color: #fff;
+    padding: 10px 80px;
+
+  }
+
+  .slideshow .carousel-indicators {
+    position: unset;
+  }
+
+  .aboutUs .bottom-ab-grids {
+    width: 100% !important;
+  }
+
+  .aboutUs .read {
+    background-color: #189a46;
+    color: #fff;
+    padding: 12px 200px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+  }
+
+.features .row{
+  display: block;
+}
+
+.features .row .grids-feature{
+width: 100%;
 
 }
 
-@media screen and (max-width: 900px){
+.features .area-box{
+  border: 1px solid #116e32;
+  text-align: center;
+}
+
+.features .area-box .read{
+  background-color: #189a46;
+  color: #fff;
+  padding: 12px 50px;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: 0.3s ease-in;
+  border-radius: 10px;
+}
+
+.features .area-box:hover{
+  background: white;
+}
+
+.services .row{
+display: block ;
+}
+
+.services .text-end{
+  text-align: center !important;
+}
+
+.services .img-fluid{
+  width: 100%;
+}
+
+.number .row{
+display: block;
+flex-wrap: nowrap;
+}
+
+.number .col-6{
+  width: 100%;
+}
+
+.pricing .pricing-sec-7{
+  display: block;
+  margin: 0 10%;
+}
+
+.pricing .pricing-gd-left{
+  margin: 20px 0;
+}
+
+.pricing .pric-7-1 .pricing-7{
+  box-shadow: 0 10px 30px 0 rgb(17 17 17 / 9%); /* đổ bóng */
+}
+
+.pricing .buy-button a{
+  padding: 12px 100px;
+}
+
+
+
+.player .section-width p{
+  padding: 0 0;
+}
+
+
+
+.bottom form .subscribe{
+  display: unset;
+}
+
+.bottom button{
+  width: 100%;
+  margin-top: 10px;
+}
+
+footer .container.bg-dark .row{
+  display: unset;
+}
+
+footer h6.footer-title-28.text-white.fs-5.pb-3{
+  padding-top: 10px;
+}
+
+footer .col-lg-6 .col-md-5 .footer-list-28 .mt-5 .text-secondary{
+  padding-left: 24px;
+}
+
+
+body{
+  padding-left: 10px;
+}
 
 }
 
-@media screen and (max-width: 768px){
-  
-}
 
 
-@media screen and (max-width: 576px){
-
-} 
