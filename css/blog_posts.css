@@ -138,12 +138,17 @@ footer .row {
 }
 
 /* ********************************************************************************breadscumb */
-#breadscumb .breadscumb-all {
-  background-image: url(img/5.jpg);
+#breadscumb {
+  background-image: url(../img/5.jpg);
   background-repeat: no-repeat;
-  background-position: top center;
-  margin-top: 90px;
+  background-position:  center;
   background-size: cover;
+  padding: 1em 0;
+  position: relative;
+  margin-top: 90px;
+}
+#breadscumb .breadscumb-all {
+
   padding: 1em 0;
   position: relative;
   width: 100%;
@@ -213,12 +218,14 @@ main .main-all {
   flex-wrap: wrap;
 }
 main .main-all-card {
-  width: 33.3%;
-  padding: 0 15px 0 15px;
+  width: 30.3%;
+  margin: 0 10px 0 10px;
   transition: 0.5s;
 }
 main .main-all-card:hover{
   transform: translateY(-20px);
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 9%);
+  padding: 0;
 }
 main .main-all-card a{
   padding: 0;
@@ -267,4 +274,20 @@ line-height: 28px;
 color: #000c04;}
 .main-all-card-contents .ctn2 a:hover{
   color: #f53626;
+}
+.numberpages a{
+  font-size: 20px;
+    font-weight: 700;
+    margin: 0 5px;
+    text-decoration: none;
+    text-align: center;
+    height: 30px;
+    width: 20px;
+    color: #000c04;
+}
+.numberpages .numberall{
+  cursor: pointer;
+}
+.numberpages .numberall:hover{
+  color: #189A46;
 }
