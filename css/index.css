@@ -1065,25 +1065,25 @@ p {
 
 /* *******************************RESPONSIVE********************************* */
 @media screen and (max-width: 1200px) {
-  body{
+  body {
     padding: 0 25px;
   }
 }
 
 @media screen and (max-width: 900px) {
-   /* Tắt biểu tượng sáng tối */
-   header .moon-sun {
+  /* **********************Header */
+  header .moon-sun {
     display: none;
   }
 
   header .container-fluid {
     padding: 0 25px;
   }
- 
-  body{
+
+  body {
     padding: 0 25px;
   }
-
+  /* ***************************Header */
   .features .row {
     display: flex;
     flex-wrap: wrap;
@@ -1093,20 +1093,22 @@ p {
     width: calc(100% / 3);
   }
 
-  .services .text-end{
+  .services .text-end {
     width: 50%;
   }
 
-  .services .cwp4-text{
+  .services .cwp4-text {
     width: 50%;
   }
-
-
 }
 
 @media screen and (max-width: 768px) {
-   /* Tắt biểu tượng sáng tối */
-   header .moon-sun {
+  /* ***************************Header */
+  body {
+    padding-left: 10px;
+  }
+
+  header .moon-sun {
     display: none;
   }
 
@@ -1114,9 +1116,10 @@ p {
     padding: 0 25px;
   }
 
-  header .container-fluid .navbar-brand{
+  header .container-fluid .navbar-brand {
     padding: 0 0;
   }
+  /* ***************************Header */
 
   .slideshow .carousel-caption {
     display: block !important;
@@ -1239,6 +1242,8 @@ p {
     margin-top: 10px;
   }
 
+
+  /* *************************FOOTER */
   footer .container.bg-dark .row {
     display: unset;
   }
@@ -1250,13 +1255,15 @@ p {
   footer .col-lg-6 .col-md-5 .footer-list-28 .mt-5 .text-secondary {
     padding-left: 24px;
   }
+   /* *************************FOOTER */
 
-  body {
-    padding-left: 10px;
-  }
 }
 
 @media screen and (max-width: 576px) {
+  /* *************************HEADER */
+  body {
+    padding-left: 10px;
+  }
   /* Tắt biểu tượng sáng tối */
   header .moon-sun {
     display: none;
@@ -1266,9 +1273,12 @@ p {
     padding: 0 25px;
   }
 
-  header .container-fluid .navbar-brand{
+  header .container-fluid .navbar-brand {
     padding: 0 0;
   }
+  /* *************************HEADER */
+
+
 
   .slideshow .carousel-caption {
     display: block !important;
@@ -1389,6 +1399,7 @@ p {
     margin-top: 10px;
   }
 
+  /* ********************************FOOTER */
   footer .container.bg-dark .row {
     display: unset;
   }
@@ -1400,8 +1411,6 @@ p {
   footer .col-lg-6 .col-md-5 .footer-list-28 .mt-5 .text-secondary {
     padding-left: 24px;
   }
-
-  body {
-    padding-left: 10px;
-  }
+/* *************************FOOTER */
+  
 }
