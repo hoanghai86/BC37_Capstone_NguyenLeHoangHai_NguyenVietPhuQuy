@@ -11,7 +11,7 @@ html {
   box-sizing: border-box;
 }
 
-.container,
+
 .container-fluid,
 .container-lg,
 .container-md,
@@ -22,7 +22,10 @@ html {
   padding-right: 0;
   padding-left: 0;
 }
-
+.container{
+  max-width: 1200px;
+  padding: 24px 25px 24px 25px;
+}
 /* ***********************************************************************************HEADER */
 /* format thẻ Pooch Care */
 header .navbar-brand {
@@ -183,6 +186,7 @@ font-size: 1.2em;
   /* ********************************************************************************blogpost */
   #blogpost {
     padding: 48px 0 48px 0;
+    background-color: rgba(147, 107, 232, 0.05);
   }
   
 .blogpost-all .blogpost-all-header h3{
@@ -201,5 +205,44 @@ line-height: 48px;
 text-transform: capitalize;
 text-align: center;
 }
+main .main-all {
+  display: flex;
+  flex-direction: wrap;
+  width: 100%;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+main .main-all-card {
+  width: 33.3%;
+  padding: 0 15px 0 15px;
+}
+main .main-all-card .main-all-card--img{
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.main-all-card-contents {
+  padding: 30px 20px 30px 20px;
+  background-color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.main-all-card-contents .ctn1 {
+  margin-bottom: 6px;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 600;
+  color: #000c04;
+  text-decoration: none;
+}
+.main-all-card-contents .ctn2 {
+  margin: 16px 0 4px 0;
 
-
+}
+.main-all-card-contents p{
+  margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+}
