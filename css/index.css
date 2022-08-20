@@ -296,7 +296,7 @@ footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary{
   font-weight: 600;
 }
 
-/* format font icon(nút tròn_ */
+/* format font icon (nút tròn) */
 .services ul.cont-4 li span.fa {
   color: #189a46;
   margin-right: 12px;
@@ -304,6 +304,11 @@ footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary{
   font-size: 0.625rem;
   padding: 8px;
   border-radius: 50%;
+}
+
+.services img{
+  border-radius: 15px;
+  width: 100%;
 }
 
 /* *********************************************NUMBER */
