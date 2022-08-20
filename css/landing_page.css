@@ -312,27 +312,35 @@ footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
 }
 
 /* *****************************************OUR TEAM */
-.team .col .card{
-    border: none;
+.team .col .card {
+  border: none;
 }
 
-.team .card img{
-    border-radius: 10px;
-    transition: all 0.3;
+.team .col .card a {
+  overflow: hidden; /* ngăn tấm hình tràn ra ngoài khi hover vào */
+  border-radius: 10px;
+}
+
+.team .card img {
+  transition: all 0.5s;
+}
+
+/* hover vào phóng to tấm hình */
+.team .card:hover img{
+  transform: scale(1.1);
 }
 
 .team .card-body a {
   text-decoration: none;
   font-size: 1.375rem;
   text-align: center;
-  transition: all 0.3;
+  transition: all 0.5s;
   color: initial;
 }
 
-.team .card-body a:hover{
-    color: #189a46;
+.team .card:hover a {
+  color: #189a46;
 }
-
 
 .team .card-body p {
   font-size: 1rem;
@@ -341,32 +349,40 @@ footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
   text-align: center;
 }
 
-.team .card-body .social{
-    margin-top:16px;
+.team .card-body .social {
+  margin-top: 16px;
 }
 
-.team .card-body .social-left{
-    text-align: center;
+.team .card-body .social-left {
+  text-align: center;
 }
 
 /* format 3 nút của thẻ card */
 .team .card-body .social a {
-    display: inline-block;
-    margin-right: 6px;
-    width: 30px;
-    height: 30px;
-    border-radius: 4px;
-    line-height: 30px;
-    text-align: center;
-    background: rgba(147, 107, 232, 0.05);
-    color: #189A46;
+  display: inline-block;
+  margin-right: 6px;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  line-height: 30px;
+  text-align: center;
+  background: rgba(147, 107, 232, 0.05);
+  color: #189a46;
+  transition: all 0.5s;
 }
 
-.team .card-body .social a span{
-    font-size: 12px;
-    line-height: 30px;
-    display: block;
+.team .card-body .social a span {
+  font-size: 12px;
+  line-height: 30px;
+  display: block;
 }
+
+/* hover thẻ a thì đổi màu các font icon bên trong nó */
+.team .card-body .social a:hover{
+  background: #189a46;
+  color: white;
+}
+
 
 
 /* *********************************************NUMBER */
