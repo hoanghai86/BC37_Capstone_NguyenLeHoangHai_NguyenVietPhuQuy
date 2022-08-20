@@ -1,0 +1,139 @@
+body,
+html {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 1280px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* ***********************************************************************************HEADER */
+/* format thẻ Pooch Care */
+header .navbar-brand {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 34px !important;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #189a46 !important;
+}
+
+/* đổi màu khi rê chuột vào navbar */
+header .nav-link:hover {
+  color: #189a46 !important;
+}
+
+header .nav-item span:hover {
+  color: #189a46;
+}
+
+header .nav-link span {
+  position: relative;
+}
+
+/* tạo 1 div after của thẻ span (đường gạch chân màu xanh của các nút Home, About...)  */
+header .nav-link span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #189a46;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+/* hover thẻ span thì chiều dài div after dài ra 100% */
+header .nav-link span:hover::after {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+}
+
+header .nav-item span {
+  position: relative;
+}
+
+/* tạo 1 div cho thẻ span trong dropdown */
+header .nav-item span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #189a46;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+/* hover thẻ span thì chiều dài div after dài ra 100% */
+header .nav-item span:hover::after {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+}
+
+/* ********************************************************************************FOOTER */
+/* format 4 font icon: facebook, twitter, google... */
+footer .main-social-footer-28 li {
+  display: inline-block;
+  padding: 5px;
+}
+
+footer .main-social-footer-28 a:hover i {
+  color: #fff;
+}
+
+/* bỏ dấu gạch chân thẻ a */
+footer a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* bỏ chấm tròn thẻ li */
+footer li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+/* kẻ đường thẳng phía trên copy right */
+footer .midd-footer-28 {
+  border-top: 1px solid rgba(103, 99, 99, 0.14);
+}
+
+footer .row {
+  margin: 0 0;
+}
+
+footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary{
+  padding-left: 24px;
+}
