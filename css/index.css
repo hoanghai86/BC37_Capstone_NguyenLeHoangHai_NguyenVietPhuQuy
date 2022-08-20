@@ -134,6 +134,10 @@ footer .row {
   margin: 0 0;
 }
 
+footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary{
+  padding-left: 24px;
+}
+
 /* ********************************************************************CAROUSEL */
 /* format nút red more */
 .slideshow .btn_readmore {
@@ -1104,10 +1108,6 @@ p {
 
 @media screen and (max-width: 768px) {
   /* ***************************Header */
-  body {
-    padding-left: 10px;
-  }
-
   header .moon-sun {
     display: none;
   }
@@ -1255,15 +1255,13 @@ p {
   footer .col-lg-6 .col-md-5 .footer-list-28 .mt-5 .text-secondary {
     padding-left: 24px;
   }
+
    /* *************************FOOTER */
 
 }
 
 @media screen and (max-width: 576px) {
   /* *************************HEADER */
-  body {
-    padding-left: 10px;
-  }
   /* Tắt biểu tượng sáng tối */
   header .moon-sun {
     display: none;
@@ -1400,6 +1398,11 @@ p {
   }
 
   /* ********************************FOOTER */
+footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary{
+  padding-left: 24px;
+  padding-top: 12px;
+}
+
   footer .container.bg-dark .row {
     display: unset;
   }
@@ -1408,9 +1411,7 @@ p {
     padding-top: 10px;
   }
 
-  footer .col-lg-6 .col-md-5 .footer-list-28 .mt-5 .text-secondary {
-    padding-left: 24px;
-  }
+
 /* *************************FOOTER */
   
 }

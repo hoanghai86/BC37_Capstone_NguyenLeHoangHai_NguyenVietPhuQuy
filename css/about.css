@@ -133,3 +133,7 @@ footer .midd-footer-28 {
 footer .row {
   margin: 0 0;
 }
+
+footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary{
+  padding-left: 24px;
+}
