@@ -22,10 +22,12 @@ html {
   padding-right: 0;
   padding-left: 0;
 }
-.container{
+
+.container {
   max-width: 1200px;
   padding: 24px 25px 24px 25px;
 }
+
 /* ***********************************************************************************HEADER */
 /* format thẻ Pooch Care */
 header .navbar-brand {
@@ -142,18 +144,23 @@ footer .row {
 #breadscumb {
   background-image: url(../img/5.jpg);
   background-repeat: no-repeat;
-  background-position:  center;
+  background-position: center;
   background-size: cover;
   padding: 1em 0;
   position: relative;
   margin-top: 90px;
+  z-index: 0;
+}
+
+#breadscumb::before {
+  content: "";
+  position: absolute;
+  min-height: 100%;
+  background-color: #0c0c0c;
+  z-index: -1;
 }
 #breadscumb .breadscumb-all {
-
   padding: 48px 0 48px 0;
-  position: relative;
-  width: 100%;
-
 }
 
 .breadscumb-all::before {
@@ -174,11 +181,13 @@ footer .row {
   font-weight: 600;
   color: #fff;
 }
-.breadscumb-all-contents .homeblog{
+
+.breadscumb-all-contents .homeblog {
   display: flex;
   justify-content: center;
 }
-.breadscumb-all-contents a{
+
+.breadscumb-all-contents a {
   text-decoration: none;
   color: #189A46;
   font-size: 1.2em;
@@ -186,66 +195,74 @@ footer .row {
   font-weight: 400;
   text-transform: capitalize;
 }
-.breadscumb-all-contents .blog{
-font-size: 1.2em;
-    line-height: 1.5;
-    font-weight: 400;
-    text-transform: capitalize;
-    color: #fff;
-  }
-  /* ********************************************************************************blogpost */
-  #blogpost {
-    padding: 48px 0 48px 0;
-    background-color: rgba(147, 107, 232, 0.05);
-  }
-  
-.blogpost-all .blogpost-all-header h3{
- color: #f53626;
- font-size: 18px;
-    font-weight: 400;
-    text-transform: uppercase;
-    line-height: 2em;
-    letter-spacing: 1px;
-    text-align: center;
+
+.breadscumb-all-contents .blog {
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #fff;
 }
-.blogpost-all .blogpost-all-header .tittle{
-font-size: 40px;
-font-weight: 600;
-line-height: 48px;
-text-transform: capitalize;
-text-align: center;
+
+/* ********************************************************************************blogpost */
+#blogpost {
+  padding: 48px 0 48px 0;
+  background-color: rgba(147, 107, 232, 0.05);
 }
+
+.blogpost-all .blogpost-all-header h3 {
+  color: #f53626;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.blogpost-all .blogpost-all-header .tittle {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
 main .main-all {
   display: flex;
   width: 100%;
-  margin-right: -15px;
-  margin-left: -15px;
   flex-wrap: wrap;
 }
+
 main .main-all-card {
-  width: 30.3%;
+  width: 31.57%;
   margin: 0 10px 0 10px;
   transition: 0.5s;
 }
-main .main-all-card:hover{
+
+main .main-all-card:hover {
   transform: translateY(-15px);
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 9%);
   padding: 0;
 }
-main .main-all-card a{
+
+main .main-all-card a {
   padding: 0;
 }
-main .main-all-card .main-all-card--img{
+
+main .main-all-card .main-all-card--img {
   width: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
+
 .main-all-card-contents {
   padding: 30px 20px 30px 20px;
   background-color: #fff;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+
 .main-all-card-contents .ctn1 {
   margin-bottom: 6px;
   font-size: 26px;
@@ -255,44 +272,53 @@ main .main-all-card .main-all-card--img{
   text-decoration: none;
   display: block;
 }
+
 .main-all-card-contents .ctn2 {
   margin: 16px 0 4px 0;
 
 
 }
-.main-all-card-contents p{
+
+.main-all-card-contents p {
   margin: 0;
-    padding: 0;
-    font-size: 1.2em;
-    line-height: 28px;
-    color: #696969;
+  padding: 0;
+  font-size: 1.2em;
+  line-height: 28px;
+  color: #696969;
 }
+
 .main-all-card-showcase {
   display: flex;
 }
-.main-all-card-contents .ctn2 a{
-text-decoration:none;
-cursor:pointer;
-font-weight: 400;
-font-size: 18px;
-line-height: 28px;
-color: #000c04;}
-.main-all-card-contents .ctn2 a:hover{
+
+.main-all-card-contents .ctn2 a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000c04;
+}
+
+.main-all-card-contents .ctn2 a:hover {
   color: #f53626;
 }
-.numberpages a{
+
+.numberpages a {
   font-size: 20px;
-    font-weight: 700;
-    margin: 0 5px;
-    text-decoration: none;
-    text-align: center;
-    height: 30px;
-    width: 20px;
-    color: #000c04;
+  font-weight: 700;
+  margin: 0 5px;
+  text-decoration: none;
+  text-align: center;
+  height: 30px;
+  width: 20px;
+  color: #000c04;
 }
-.numberpages .numberall{
+
+.numberpages .numberall {
   cursor: pointer;
 }
-.numberpages .numberall:hover{
+
+.numberpages .numberall:hover {
   color: #189A46;
 }
