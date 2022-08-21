@@ -1447,6 +1447,44 @@ p {
   }
 
   /* *************************FOOTER */
+
+  .team .img-fluid{
+    width: 100%;
+  }
+
+  .team .row-cols-sm-4 .col{
+    width: 50%;
+  }
+
+  .team .card-body .social a{
+    width: 30%;
+  }
+
+  .findUs .info{
+    display: block;
+  }
+
+  .findUs .info_personal .name_email{
+    display: block;
+  }
+
+  .findUs .info_personal .name_email .name{
+    margin-bottom: 20px;
+  }
+
+  .findUs .info_personal .button_message{
+    display: block;
+  }
+
+  .findUs .info_personal .button_message button{
+    width: 100%;
+  }
+
+  .findUs .info_personal{
+    margin-bottom: 20px;
+  }
+
+
 }
 
 @media screen and (max-width: 576px) {
@@ -1599,4 +1637,44 @@ p {
   }
 
   /* *************************FOOTER */
+
+  .team .img-fluid{
+    width: 100%;
+  }
+
+  .team .row-cols-sm-4 .col{
+    width: 100%;
+  }
+
+  .team .card-body .social a{
+    width: 30%;
+  }
+
+  .findUs .info{
+    display: block;
+  }
+
+  .findUs .info_personal .name_email{
+    display: block;
+  }
+
+  .findUs .info_personal .name_email .name{
+    margin-bottom: 20px;
+  }
+
+  .findUs .info_personal .button_message{
+    display: block;
+  }
+
+  .findUs .info_personal .button_message button{
+    width: 100%;
+  }
+
+  .findUs .info_personal{
+    margin-bottom: 20px;
+  }
+
+
+
+
 }
