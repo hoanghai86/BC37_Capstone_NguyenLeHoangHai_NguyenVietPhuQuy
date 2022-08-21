@@ -312,11 +312,9 @@ footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
 }
 
 /* *****************************************OUR TEAM */
-.team .container{
+.team .container {
   background: rgba(147, 107, 232, 0.05);
   padding: 15px;
-
-
 }
 
 .team .col .card {
@@ -333,7 +331,7 @@ footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
 }
 
 /* hover vào phóng to tấm hình */
-.team .card:hover img{
+.team .card:hover img {
   transform: scale(1.1);
 }
 
@@ -385,12 +383,10 @@ footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
 }
 
 /* hover thẻ a thì đổi màu các font icon bên trong nó */
-.team .card-body .social a:hover{
+.team .card-body .social a:hover {
   background: #189a46;
   color: white;
 }
-
-
 
 /* *********************************************NUMBER */
 /* format dãy số */
@@ -1022,7 +1018,7 @@ button::-moz-focus-inner {
 }
 /************************************* Format popup video */
 
-/* **********************************TERMINALS */
+/* **********************************TESTIMONIALS */
 .terminals .container {
   background-color: rgba(147, 107, 232, 0.05);
 }
@@ -1072,6 +1068,82 @@ p {
   width: 70%;
   margin: auto;
   text-align: center;
+}
+
+/* ***********************************FIND US */
+.findUs {
+  padding: 50px 0;
+}
+
+.findUs .info {
+  display: grid;
+  grid-template-columns: 2fr auto;
+  grid-gap: 40px;
+}
+
+.findUs .name_email {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.findUs .subject {
+  margin-bottom: 20px;
+}
+
+.findUs .message {
+  margin-bottom: 20px;
+}
+
+.findUs input {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  padding: 0px 16px;
+  border: rgba(147, 107, 232, 0.05);
+  background: rgba(147, 107, 232, 0.05);
+  border-radius: 6px;
+  height: 55px;
+}
+
+/* chỉnh hiệu ứng khi bấm vào input */
+.findUs input:focus {
+  outline: none;
+  border: 1px solid #189a46;
+}
+
+.findUs textarea {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  padding: 0px 16px;
+  border: rgba(147, 107, 232, 0.05);
+  background: rgba(147, 107, 232, 0.05);
+  border-radius: 6px;
+  resize: none;
+  min-height: 140px;
+  padding: 12px 16px;
+}
+
+.findUs textarea:focus{
+  outline: none;
+  border: 1px solid #189a46;
+}
+
+.findUs .button_message{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.findUs .button_message button{
+  padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
 }
 
 /* ***********************************STAY UPDATE */
