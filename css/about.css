@@ -252,7 +252,7 @@ li {
   z-index: -1;
 }
 
-.history .content{
+.history .content {
   text-align: left;
   color: #fff;
 }
@@ -271,28 +271,71 @@ li {
   font-weight: 600;
   line-height: 48px;
   text-transform: capitalize;
-
 }
 
-.history p{
+.history p {
   color: #fff;
   opacity: 0.7;
   font-size: 19px;
 }
 
-.history .history-grids h5.year{
+.history .history-grids h5.year {
   color: #fff;
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 6px;
 }
 
-.history .content{
+.history .content {
   max-width: 60%;
   margin-left: auto;
 }
-  
 
+/* **********************************WHO WE ARE */
+.services .services_left .sub-title {
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2em;
+  letter-spacing: 1px;
+  color: #f53626;
+}
+
+.services .services_left .hny-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #000c04;
+}
+
+.services .services_left img{
+  border-radius: 10px;
+}
+
+.services .services_right .services_grids_icon .content_icon{
+  color: #189A46;
+    font-size: 44px;
+    text-align: center;
+}
+
+.services .services_right .services_grids_info h6 a{
+  color: #000c04;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.services .services_right .services_grids_info h6 a:hover{
+  color: #189A46;
+}
+
+.services .services_right .services_grids_info p{
+    font-size: 1.2rem;
+    line-height: 28px;
+    color: #696969;
+
+}
 
 
 
@@ -371,4 +414,42 @@ li {
 .team .card-body .social a:hover {
   background: #189a46;
   color: white;
+}
+
+
+/* ************************************************RESPONSIVE */
+@media screen and (max-width: 1200px){}
+@media screen and (max-width: 900px){}
+@media screen and (max-width: 768px){}
+@media screen and (max-width: 576px){
+  header .moon-sun {
+    display: none;
+  }
+
+  header .container-fluid {
+    padding: 0 25px;
+  }
+
+  header .container-fluid .navbar-brand {
+    padding: 0 0;
+  }
+
+  .about-content{
+    margin: 30px 0;
+    padding: 0 30px;
+  }
+
+  .about-content .row{
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .history .content{
+    max-width: 80%;
+    margin: auto;
+  }
+
+
+
 }
