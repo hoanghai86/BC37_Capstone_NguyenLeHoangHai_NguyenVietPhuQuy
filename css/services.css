@@ -273,4 +273,65 @@ footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
     text-transform: capitalize;
     color: #fff;
   }
+  /*********services************/
+  .services-all {
+    display: flex;
+    flex-direction: column;
+  }
+.services-all .services-design {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #f0f3f0;
+  }
+.services-img {
+    width: 50%;
+    padding: 0 24px 0 15px;
+}
+.services-design .services-img img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow:  0 0.5rem 1rem rgb(0 0 0 / 9%);
+}
+.services-content {
+    width: 50%;
+    transform: translateY(100px);
+    padding: 0 15px 0 48px;
+}
+  
+#services .services-content .number-services{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color:#f53626;
+}
+#services header h2{
+    font-size: 2rem;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+#services main p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+#services .services-content .services-readmore {
+    color: #0c0c0c;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid #189a46;
+    transition: 0.5s;
+}
+#services .services-content .services-readmore:hover {
+    color: #189A46;
+}
+
+
   
