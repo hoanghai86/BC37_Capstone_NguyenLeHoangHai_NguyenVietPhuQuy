@@ -302,11 +302,10 @@ li {
 }
 
 /* ******************************BLOG SINGLE 2 */
-.blog-single3 .row{
+.blog-single3 .row {
   margin-right: 0;
-    margin-left: 0;
+  margin-left: 0;
 }
-
 
 .blog-single3 .d-grid.grid-text-9 {
   max-width: 900px;
@@ -328,7 +327,7 @@ li {
   text-decoration: none;
 }
 
-.blog-single3 .right-text-9 h5.sub-head-text-9{
+.blog-single3 .right-text-9 h5.sub-head-text-9 {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
@@ -337,7 +336,7 @@ li {
   font-style: italic;
 }
 
-.blog-single3 .right-text-9 p.sub-para{
+.blog-single3 .right-text-9 p.sub-para {
   margin-top: 20px;
   margin-bottom: 0;
   font-size: 1.2em;
@@ -345,51 +344,51 @@ li {
   color: #696969;
 }
 
-.blog-single3 .single-post-content-1 .col-md-4{
+.blog-single3 .single-post-content-1 .col-md-4 {
   padding-right: 0;
   padding-left: 0;
 }
 
-.blog-single3 .single-post-content-1 .col-md-4 img{
+.blog-single3 .single-post-content-1 .col-md-4 img {
   border-radius: 10px;
 }
 
-.blog-single3 .single-post-content-1 .col-md-8{
+.blog-single3 .single-post-content-1 .col-md-8 {
   padding-right: 0;
   padding-left: 0;
 }
 
-.blog-single3 .single-post-content-1 .col-md-8 p{
+.blog-single3 .single-post-content-1 .col-md-8 p {
   margin-bottom: 0;
   font-size: 1.2em;
   line-height: 28px;
   color: #696969;
 }
 
-.blog-single3 .social-share-blog ul li{
+.blog-single3 .social-share-blog ul li {
   display: inline-block;
-    margin: 0;
-    margin-right: 7px;
-    margin-top: 5px;
+  margin: 0;
+  margin-right: 7px;
+  margin-top: 5px;
 }
 
-.blog-single3 .social-share-blog ul li a.facebook{
+.blog-single3 .social-share-blog ul li a.facebook {
   color: #3b5998;
 }
 
-.blog-single3 .social-share-blog ul li a.twitter{
+.blog-single3 .social-share-blog ul li a.twitter {
   color: #1da1f2;
 }
 
-.blog-single3 .social-share-blog ul li a.instagram{
+.blog-single3 .social-share-blog ul li a.instagram {
   color: #c13584;
 }
 
-.blog-single3 .social-share-blog ul li a{
+.blog-single3 .social-share-blog ul li a {
   transition: all 0.5s;
 }
 
-.blog-single3 .social-share-blog ul li a:hover{
+.blog-single3 .social-share-blog ul li a:hover {
   opacity: 0.6;
 }
 
@@ -420,7 +419,7 @@ li {
   text-decoration: none;
 }
 
-.blog-single3 img.radius-image{
+.blog-single3 img.radius-image {
   border-radius: 10px;
 }
 
@@ -432,14 +431,13 @@ li {
   color: #000c04;
 }
 
-.blog-single3 .post-prev a:hover label{
+.blog-single3 .post-prev a:hover label {
   color: #189a46;
 }
 
-.blog-single3 .post-next a:hover label{
+.blog-single3 .post-next a:hover label {
   color: #189a46;
 }
-
 
 /* *************************BLOG SINGLE 4 */
 .blog-single4 .text-styles-top-30 {
@@ -472,7 +470,7 @@ li {
   border-radius: 50%;
 }
 
-.blog-single4 .img-circle img{
+.blog-single4 .img-circle img {
   width: 100%;
   object-fit: cover;
 }
@@ -494,13 +492,13 @@ li {
 }
 
 .blog-single4 .text-styles-30_sur p {
-    font-size: 1.2em;
-    line-height: 28px;
-    color: #696969;
+  font-size: 1.2em;
+  line-height: 28px;
+  color: #696969;
 }
 
 .blog-single4 a.reply {
-  color: #189A46;
+  color: #189a46;
   font-size: 1rem;
   margin-top: 5px;
   display: inline-block;
@@ -508,7 +506,7 @@ li {
   text-decoration: none;
 }
 
-.blog-single4 a.reply:hover{
+.blog-single4 a.reply:hover {
   text-decoration: underline;
 }
 
@@ -531,7 +529,7 @@ li {
   display: inline-block;
 }
 
-.blog-single5 .card{
+.blog-single5 .card {
   border: none;
   background: #fff;
   border-radius: 8px;
@@ -543,12 +541,11 @@ li {
   transform: translateY(0);
 }
 
-.blog-single5 .card:hover{
+.blog-single5 .card:hover {
   transform: translateY(-0.5rem);
 }
 
-
-.blog-single5 .card-header{
+.blog-single5 .card-header {
   border: none;
   padding: 0;
 }
@@ -565,11 +562,9 @@ li {
   border-top: none;
 }
 
-
 .blog-single5 .card:hover .card-body {
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 9%);
 }
-
 
 .blog-single5 .blog-details {
   background: #fff;
@@ -586,47 +581,47 @@ li {
   font-weight: 600;
   color: #000c04;
   margin-bottom: 6px;
-  transition: .3s ease;
+  transition: 0.3s ease;
   text-transform: capitalize;
   text-decoration: none;
 }
 
-.blog-single5 .blog-desc:hover{
-  color: #189A46;
+.blog-single5 .blog-desc:hover {
+  color: #189a46;
 }
 
-.blog-single5 .blog-details p{
+.blog-single5 .blog-details p {
   font-size: 1.2em;
   line-height: 28px;
   color: #696969;
 }
 
-.blog-single5 .author a{
+.blog-single5 .author a {
   color: #000c04;
-    font-weight: 400;
-    font-size: 1.125rem;
-    line-height: 28px;
-    text-decoration: none;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 28px;
+  text-decoration: none;
 }
 
-.blog-single5 .author a:hover{
+.blog-single5 .author a:hover {
   color: red;
 }
 
-.blog-single5 .author .meta-value{
+.blog-single5 .author .meta-value {
   color: #999;
 }
 
-.blog-single5 ul{
+.blog-single5 ul {
   margin: 0;
   padding: 0;
 }
 
-.blog-single5 ul li.meta-item{
-    display: inline-block;
-    margin-right: 15px;
-    font-size: 15px;
-    color: #888;
+.blog-single5 ul li.meta-item {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 15px;
+  color: #888;
 }
 
 /* ************************* BLOG SINGLE 5*/
@@ -651,32 +646,31 @@ li {
   grid-gap: 25px;
 }
 
-.blog-single6 .forms-29-form input, .blog-single .blog-single6 form textarea {
-  outline: none;
-  width: 100%;
-  text-align: left;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  border-radius: 6px;
+.blog-single6 input {
   min-height: 60px;
   padding: 13px 20px;
   border: 1px solid rgba(147, 107, 232, 0.05);
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 1.125rem;
   line-height: 22px;
   color: #293043;
   background-color: rgba(147, 107, 232, 0.05);
 }
 
+.blog-single6 input:focus, .blog-single6 textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #189a46;
+}
 
-
-
-
-
-
-
-
+.blog-single6 textarea {
+  height: 150px;
+  padding: 15px 20px;
+  border: 1px solid rgba(147, 107, 232, 0.05);
+  font-size: 1.125rem;
+  line-height: 22px;
+  color: #293043;
+  background-color: rgba(147, 107, 232, 0.05);
+}
 
 
 
