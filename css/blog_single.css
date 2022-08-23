@@ -672,7 +672,22 @@ li {
   background-color: rgba(147, 107, 232, 0.05);
 }
 
+.blog-single6 .btn-style {
+  padding: 12px 35px;
+  font-size: 1.125rem;
+  line-height: 28px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #189A46;
+  border-color: #189A46;
+}
 
+.blog-single6 .btn-style:hover {
+  background-color: #116E32;
+  border-color: #116E32;
+}
 
 /* ****************************BACK TO TOP */
 /* sử dụng thư viện https://codyhouse.co/gem/back-to-top để chỉnh nút back to top */
