@@ -1518,15 +1518,19 @@ p {
   }
 
   .slideshow .btn_readmore {
+    display: block;
     background-color: #189a46;
     color: #fff;
-    padding: 10px 80px;
+    padding: 10px 10px;
   }
 
   .slideshow .btn_contact {
+    border: none;
+    display: block;
     background-color: #189a46;
     color: #fff;
-    padding: 10px 80px;
+    padding: 10px 10px;
+    margin-top: 5px;
   }
 
   .slideshow .carousel-indicators {
@@ -1540,7 +1544,7 @@ p {
   .aboutUs .read {
     background-color: #189a46;
     color: #fff;
-    padding: 12px 200px;
+    padding: 12px 12px;
     font-size: 18px;
     line-height: 28px;
     text-transform: capitalize;
@@ -1613,7 +1617,7 @@ p {
   }
 
   .pricing .buy-button a {
-    padding: 12px 100px;
+    padding: 12px 12px;
   }
 
   .player .section-width p {
