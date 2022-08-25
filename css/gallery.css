@@ -312,6 +312,7 @@ footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
       }
       main .item .card {
         position: relative;
+        overflow: hidden;
         
       }
       main .item .card::before {
@@ -325,11 +326,10 @@ footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
     height: 100%;
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
     transform: skewX(-25deg);
-    transition: 1s ease;
+    transition: 0.5s ease;
     opacity: 0;
-    overflow: hidden;
       }
       main .item .card:hover::before{
-        width: 130%;
+        left:270px;
         opacity: 1;
       }
