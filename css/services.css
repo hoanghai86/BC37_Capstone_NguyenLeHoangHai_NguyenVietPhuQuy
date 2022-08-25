@@ -26,7 +26,6 @@ html {
 /* ***********************************************************************************HEADER */
 header.nav-fixed {
   padding: 0px;
-  background-color: #fff;
   height: auto;
   border-bottom: none;
   box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
