@@ -1,0 +1,527 @@
+body,
+html {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 1280px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* ***********************************************************************************HEADER */
+header.nav-fixed {
+  padding: 0px;
+  background-color: #fff;
+  height: auto;
+  border-bottom: none;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+}
+
+/* format thẻ Pooch Care */
+header .navbar-brand {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 34px !important;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #189a46 !important;
+}
+
+/* đổi màu khi rê chuột vào navbar */
+header .nav-link:hover {
+  color: #189a46 !important;
+}
+
+header .nav-item span:hover {
+  color: #189a46;
+}
+
+header .nav-link span {
+  position: relative;
+}
+
+/* tạo 1 div after của thẻ span (đường gạch chân màu xanh của các nút Home, About...)  */
+header .nav-link span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #189a46;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+/* hover thẻ span thì chiều dài div after dài ra 100% */
+header .nav-link span:hover::after {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+}
+
+header .nav-item span {
+  position: relative;
+}
+
+/* tạo 1 div cho thẻ span trong dropdown */
+header .nav-item span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #189a46;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+/* hover thẻ span thì chiều dài div after dài ra 100% */
+header .nav-item span:hover::after {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+}
+
+/* ********************************************************************************FOOTER */
+/* format 4 font icon: facebook, twitter, google... */
+footer .main-social-footer-28 li {
+  display: inline-block;
+  padding: 5px;
+}
+
+footer .main-social-footer-28 a:hover i {
+  color: #fff;
+}
+
+/* bỏ dấu gạch chân thẻ a */
+footer a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* bỏ chấm tròn thẻ li */
+footer li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+/* kẻ đường thẳng phía trên copy right */
+footer .midd-footer-28 {
+  border-top: 1px solid rgba(103, 99, 99, 0.14);
+}
+
+footer .row {
+  margin: 0 0;
+}
+
+footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
+  padding-left: 24px;
+}
+
+/* ****************************CONTACT US BACKGROUND */
+.contact-breadcrumb {
+  margin-top: 90px;
+  background: url(../img/5.jpg) no-repeat center;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  padding: 1em 0;
+  position: relative;
+  z-index: 0;
+}
+
+.contact-breadcrumb::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  z-index: -1;
+  background-color: #0c0c0c;
+  opacity: 0.6;
+}
+
+.contact-breadcrumb h2.title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+.contact-breadcrumb .breadcrumbs-custom-path li {
+  display: inline-block;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.contact-breadcrumb a,
+.contact-breadcrumb a:hover {
+  text-decoration: none;
+  color: #189a46;
+}
+
+/* ***************************************************FIND US */
+.findUs {
+  padding: 50px 0;
+}
+
+.findUs .info {
+  display: grid;
+  grid-template-columns: 2fr auto;
+  grid-gap: 40px;
+}
+
+.findUs .info_personal .name_email {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.findUs .info_personal .subject {
+  margin-bottom: 20px;
+}
+
+.findUs .info_personal .message {
+  margin-bottom: 20px;
+}
+
+.findUs .info_personal input {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  padding: 0px 16px;
+  border: rgba(147, 107, 232, 0.05);
+  background: rgba(147, 107, 232, 0.05);
+  border-radius: 6px;
+  height: 55px;
+}
+
+/* chỉnh hiệu ứng khi bấm vào input */
+.findUs .info_personal input:focus {
+  outline: none;
+  border: 1px solid #189a46;
+}
+
+.findUs .info_personal textarea {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  padding: 0px 16px;
+  border: rgba(147, 107, 232, 0.05);
+  background: rgba(147, 107, 232, 0.05);
+  border-radius: 6px;
+  resize: none; /* không cho user kéo giãn kích thước textarea  */
+  min-height: 140px;
+  padding: 12px 16px;
+}
+
+.findUs .info_personal textarea:focus {
+  outline: none;
+  border: 1px solid #189a46;
+}
+
+.findUs .info_personal .button_message {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.findUs .info_personal .button_message button {
+  padding: 12px 35px;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: 0.3s ease-in;
+  border-radius: 10px;
+}
+
+.findUs .info_contact .contact_row {
+  display: grid;
+  grid-template-columns: 20px auto;
+  grid-column-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.findUs .info_contact .contact_row .left_row {
+  text-align: center;
+  color: #199a45;
+  font-size: 1.375rem;
+}
+
+.findUs .info_contact .contact_row .right_row h6 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.findUs .info_contact .contact_row .right_row p a {
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #777777;
+  margin-top: 3px;
+}
+
+.findUs .info_contact .contact_row .right_row p a:hover {
+  text-decoration: underline;
+  color: #199a45;
+}
+
+/* ***********************************STAY UPDATE */
+.bottom .header-section p.my-3 {
+  padding: 0 10%;
+}
+
+/* flex đẩy email và button lên 1 hàng */
+.bottom form .subscribe {
+  display: flex;
+  justify-content: center;
+}
+
+/* format input email */
+.bottom form .subscribe input {
+  font-size: 16px;
+  color: #696969;
+  border-radius: 10px;
+  padding: 0px 20px;
+  height: 60px;
+  flex-basis: 30%;
+  margin-right: 20px;
+  background: #fff;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: #189a46;
+}
+
+/* format nút button subscribe */
+.bottom form .subscribe button {
+  padding: 12px 35px;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: 0.3s ease-in;
+  border-radius: 10px;
+  background-color: #189a46;
+  border: #189a46;
+}
+
+/* hover đổi màu nút button subscribe */
+.bottom form .subscribe button:hover {
+  background-color: #116e32;
+}
+
+/* ****************************BACK TO TOP */
+/* sử dụng thư viện https://codyhouse.co/gem/back-to-top để chỉnh nút back to top */
+.cd-top {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #189a46;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  position: fixed; /* giúp thẻ di chuyển theo khi người dùng scroll web */
+  right: 15px;
+  bottom: 15px;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out {
+  opacity: 0.5;
+}
+
+.cd-top:hover {
+  opacity: 1;
+  color: white;
+}
+/* ****************************BACK TO TOP */
+
+/* *******************************RESPONSIVE********************************* */
+@media screen and (max-width: 1200px) {
+/* **********************Header */
+header .moon-sun {
+  display: none;
+}
+
+header .container-fluid {
+  padding: 0 25px;
+}
+
+body {
+  padding: 0 25px;
+}
+/* ***************************Header */
+}
+
+@media screen and (max-width: 900px) {
+  /* **********************Header */
+  header .moon-sun {
+    display: none;
+  }
+
+  header .container-fluid {
+    padding: 0 25px;
+  }
+
+  body {
+    padding: 0 25px;
+  }
+  /* ***************************Header */
+}
+
+@media screen and (max-width: 768px) {
+  /* ***************************Header */
+  header .moon-sun {
+    display: none;
+  }
+
+  header .container-fluid {
+    padding: 0 25px;
+  }
+
+  header .container-fluid .navbar-brand {
+    padding: 0 0;
+  }
+  /* ***************************Header */
+
+  /* *************************FOOTER */
+  footer .container.bg-dark .row {
+    display: unset;
+  }
+
+  footer h6.footer-title-28.text-white.fs-5.pb-3 {
+    padding-top: 10px;
+  }
+
+  footer .col-lg-6 .col-md-5 .footer-list-28 .mt-5 .text-secondary {
+    padding-left: 24px;
+  }
+
+  /* *************************FOOTER */
+
+  .findUs .info {
+    display: block;
+  }
+
+  .findUs .info_personal .name_email {
+    display: block;
+  }
+
+  .findUs .info_personal .name_email .name {
+    margin-bottom: 20px;
+  }
+
+  .findUs .info_personal .button_message {
+    display: block;
+  }
+
+  .findUs .info_personal .button_message button {
+    width: 100%;
+  }
+
+  .findUs .info_personal {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* *************************HEADER */
+  /* Tắt biểu tượng sáng tối */
+  header .moon-sun {
+    display: none;
+  }
+
+  header .container-fluid {
+    padding: 0 25px;
+  }
+
+  header .container-fluid .navbar-brand {
+    padding: 0 0;
+  }
+  /* *************************HEADER */
+
+  /* ********************************FOOTER */
+  footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
+    padding-left: 24px;
+    padding-top: 12px;
+  }
+
+  footer .container.bg-dark .row {
+    display: unset;
+  }
+
+  footer h6.footer-title-28.text-white.fs-5.pb-3 {
+    padding-top: 10px;
+  }
+
+  /* *************************FOOTER */
+
+  .findUs .info {
+    display: block;
+  }
+
+  .findUs .info_personal .name_email {
+    display: block;
+  }
+
+  .findUs .info_personal .name_email .name {
+    margin-bottom: 20px;
+  }
+
+  .findUs .info_personal .button_message {
+    display: block;
+  }
+
+  .findUs .info_personal .button_message button {
+    width: 100%;
+  }
+
+  .findUs .info_personal {
+    margin-bottom: 20px;
+  }
+}
