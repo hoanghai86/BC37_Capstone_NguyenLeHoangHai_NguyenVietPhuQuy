@@ -12,6 +12,7 @@ html {
 }
 
 
+.container,
 .container-fluid,
 .container-lg,
 .container-md,
@@ -19,14 +20,8 @@ html {
 .container-xl,
 .container-xxl {
   max-width: 1280px;
-  padding-right: 0;
-  padding-left: 0;
 }
 
-.container {
-  max-width: 1200px;
-  padding: 24px 25px 24px 25px;
-}
 
 /* ***********************************************************************************HEADER */
 header.nav-fixed {
@@ -349,4 +344,71 @@ main .main-all-card a {
 
 .numberpages .numberall:hover {
   color: #189A46;
+}
+
+
+
+/* *****************************************RESPONSIVE */
+
+@media screen and (max-width: 991px){
+  /* *************************HEADER */
+  /* Tắt biểu tượng sáng tối */
+  header .moon-sun {
+    display: none;
+  }
+  /* *************************HEADER */
+}
+
+
+@media screen and (max-width: 768px){
+  /* *************************HEADER */
+  /* Tắt biểu tượng sáng tối */
+  header .moon-sun {
+    display: none;
+  }
+  /* *************************HEADER */
+
+  /* ********************************FOOTER */
+footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary{
+  padding-left: 24px;
+  padding-top: 12px;
+}
+
+  footer .container.bg-dark .row {
+    display: unset;
+  }
+
+  footer h6.footer-title-28.text-white.fs-5.pb-3 {
+    padding-top: 10px;
+  }
+/* *************************FOOTER */
+
+}
+
+@media screen and (max-width: 576px){
+  /* *************************HEADER */
+  /* Tắt biểu tượng sáng tối */
+  header .moon-sun {
+    display: none;
+  }
+  /* *************************HEADER */
+
+  /* ********************************FOOTER */
+footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary{
+  padding-left: 24px;
+  padding-top: 12px;
+}
+
+  footer .container.bg-dark .row {
+    display: unset;
+  }
+
+  footer h6.footer-title-28.text-white.fs-5.pb-3 {
+    padding-top: 10px;
+  }
+
+
+/* *************************FOOTER */
+
+
 }
