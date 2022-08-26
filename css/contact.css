@@ -26,7 +26,7 @@ html {
 /* ***********************************************************************************HEADER */
 header.nav-fixed {
   padding: 0px;
-  height: auto;
+  height: 100px;
   border-bottom: none;
   box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 }
@@ -98,6 +98,36 @@ header .nav-item span:hover::after {
   opacity: 1;
   visibility: visible;
   width: 100%;
+}
+
+/* khi ở giao diện sáng, màu nền sáng, mặt trăng hiện, mặt trời ẩn*/
+#myBody{
+  background-color:white;
+}
+
+#switchButton .fa-sun {
+  display: none;
+}
+
+#switchButton .fa-moon {
+  display: block;
+}
+
+/* khi ở giao diện tối, màu nền tối, mặt trời hiện, mặt trăng ẩn */
+/* thêm lớp dark vào thẻ body */
+/* <body id="myBody" cz-shortcut-listen="true" class="dark"> */
+.dark#myBody{
+  background-color:black;
+  color:white;
+}
+
+.dark #switchButton .fa-sun {
+  display: block;
+}
+
+.dark #switchButton .fa-moon {
+  display: none;
+  color: #696969;
 }
 
 /* ********************************************************************************FOOTER */
@@ -383,10 +413,6 @@ li {
 /* *******************************RESPONSIVE********************************* */
 @media screen and (max-width: 1200px) {
 /* **********************Header */
-header .moon-sun {
-  display: none;
-}
-
 header .container-fluid {
   padding: 0 25px;
 }
@@ -400,7 +426,9 @@ body {
 @media screen and (max-width: 900px) {
   /* **********************Header */
   header .moon-sun {
-    display: none;
+    position: absolute;
+    top: 15px;
+    right: 70px;
   }
 
   header .container-fluid {
@@ -416,7 +444,9 @@ body {
 @media screen and (max-width: 768px) {
   /* ***************************Header */
   header .moon-sun {
-    display: none;
+    position: absolute;
+    top: 15px;
+    right: 70px;
   }
 
   header .container-fluid {
@@ -470,9 +500,10 @@ body {
 
 @media screen and (max-width: 576px) {
   /* *************************HEADER */
-  /* Tắt biểu tượng sáng tối */
   header .moon-sun {
-    display: none;
+    position: absolute;
+    top: 15px;
+    right: 70px;
   }
 
   header .container-fluid {
