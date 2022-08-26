@@ -32,7 +32,7 @@
     <!-- Font Css gốc -->
     <link rel="stylesheet" href="./css/blog_single.css" />
   </head>
-  <body>
+  <body id="myBody">
     <!-- *******************HEADER****************** -->
     <header class="fixed-top nav-fixed bg-light">
       <div class="container">
@@ -62,7 +62,12 @@
               </div>
             </div>
             <div class="moon-sun px-3">
-              <i class="fa-regular fa-moon"></i>
+              <div class="mx-auto">
+                <button class="btn" id="switchButton"  title="Click to switch theme" style="font-size: 1.5rem; color: #696969;">
+                  <i class="fa-regular fa-moon"></i>
+                  <i class="fa-regular fa-sun"></i>
+                </button>   
+              </div>
             </div>
           </div>
         </nav>
@@ -549,5 +554,14 @@
     <!-- sử dụng thư viện https://codyhouse.co/gem/back-to-top để chỉnh nút back to top -->
     <script src="./js/main.js"></script>
     <script src="./js/util.js"></script>
+
+    <!-- giao diện sáng tối -->
+<!-- gắn chức năng click cho nút switchButton, khi nút được bấm thì tìm đến thẻ nào có id là myBody, ở đây nó sẽ tìm đến thẻ body và gắn class dark vô (sử dụng toggle để gắn class và tháo class), kết quả ta được: <body id="myBody" class="dark"> -->
+<!-- lúc này chỉ cần viết CSS cho lớp dark (màu nền tối, mặt trời hiện, mặt trăng ẩn) -->
+<!-- thuộc tính classList để gọi thuộc tính của class dark  -->
+
+<script>document.getElementById("switchButton").onclick = function () { document.getElementById("myBody").classList.toggle("dark");};</script>
+
+
   </body>
 </html>

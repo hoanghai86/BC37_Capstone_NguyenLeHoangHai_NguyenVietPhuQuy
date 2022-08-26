@@ -26,7 +26,7 @@ html {
 /* ***********************************************************************************HEADER */
 header.nav-fixed {
   padding: 0px;
-  height: auto;
+  height: 100px;
   border-bottom: none;
   box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 }
@@ -99,6 +99,37 @@ header .navbar-brand {
     visibility: visible;
     width: 100%;
   }
+
+  /* khi ở giao diện sáng, màu nền sáng, mặt trăng hiện, mặt trời ẩn*/
+#myBody{
+  background-color:white;
+}
+
+#switchButton .fa-sun {
+  display: none;
+}
+
+#switchButton .fa-moon {
+  display: block;
+}
+
+/* khi ở giao diện tối, màu nền tối, mặt trời hiện, mặt trăng ẩn */
+/* thêm lớp dark vào thẻ body */
+/* <body id="myBody" cz-shortcut-listen="true" class="dark"> */
+.dark#myBody{
+  background-color:black;
+  color:white;
+}
+
+.dark #switchButton .fa-sun {
+  display: block;
+}
+
+.dark #switchButton .fa-moon {
+  display: none;
+  color: #696969;
+}
+
   
 /* ********************************************************************************FOOTER */
 /* format 4 font icon: facebook, twitter, google... */
@@ -333,3 +364,101 @@ footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
         left:270px;
         opacity: 1;
       }
+
+/* *****************************************RESPONSIVE */
+@media screen and (max-width: 1200px) {
+  /* **********************Header */
+header .container-fluid {
+  padding: 0 25px;
+}
+
+body {
+  padding: 0 25px;
+}
+/* ***************************Header */
+}
+
+@media screen and (max-width: 900px) {
+    /* **********************Header */
+    header .moon-sun {
+      position: absolute;
+      top: 15px;
+      right: 70px;
+    }
+  
+    header .container-fluid {
+      padding: 0 25px;
+    }
+  
+    body {
+      padding: 0 25px;
+    }
+    /* ***************************Header */
+}
+
+@media screen and (max-width: 768px) {
+   /* ***************************Header */
+   header .moon-sun {
+    position: absolute;
+    top: 15px;
+    right: 70px;
+  }
+
+  header .container-fluid {
+    padding: 0 25px;
+  }
+
+  header .container-fluid .navbar-brand {
+    padding: 0 0;
+  }
+  /* ***************************Header */
+
+  /* *************************FOOTER */
+  footer .container.bg-dark .row {
+    display: unset;
+  }
+
+  footer h6.footer-title-28.text-white.fs-5.pb-3 {
+    padding-top: 10px;
+  }
+
+  footer .col-lg-6 .col-md-5 .footer-list-28 .mt-5 .text-secondary {
+    padding-left: 24px;
+  }
+
+  /* *************************FOOTER */
+}
+
+@media screen and (max-width: 576px) {
+   /* *************************HEADER */
+   header .moon-sun {
+    position: absolute;
+    top: 15px;
+    right: 70px;
+  }
+
+  header .container-fluid {
+    padding: 0 25px;
+  }
+
+  header .container-fluid .navbar-brand {
+    padding: 0 0;
+  }
+  /* *************************HEADER */
+
+  /* ********************************FOOTER */
+  footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
+    padding-left: 24px;
+    padding-top: 12px;
+  }
+
+  footer .container.bg-dark .row {
+    display: unset;
+  }
+
+  footer h6.footer-title-28.text-white.fs-5.pb-3 {
+    padding-top: 10px;
+  }
+
+  /* *************************FOOTER */
+}
