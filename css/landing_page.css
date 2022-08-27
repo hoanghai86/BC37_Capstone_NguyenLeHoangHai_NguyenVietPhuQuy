@@ -1276,7 +1276,14 @@ p {
   height: 60px;
   padding-left: 20px;
   padding-right: 20px;
-  border-color: #189a46;
+  border: 1px solid #ced4da;
+}
+
+.bottom form .subscribe input:focus{
+  outline: none;
+  border: 1px solid #189a46;
+  box-shadow: none;
+  background-color: transparent;
 }
 
 /* format nút button subscribe */
