@@ -1182,6 +1182,7 @@ p {
 .findUs .info_personal input:focus {
   outline: none;
   border: 1px solid #189a46;
+  background-color: transparent;
 }
 
 .findUs .info_personal textarea {
@@ -1200,6 +1201,7 @@ p {
 .findUs .info_personal textarea:focus {
   outline: none;
   border: 1px solid #189a46;
+  background-color: transparent;
 }
 
 .findUs .info_personal .button_message {
