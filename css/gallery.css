@@ -33,76 +33,76 @@ header.nav-fixed {
 
 /* format thẻ Pooch Care */
 header .navbar-brand {
-    margin: 0;
-    padding: 0 20px;
-    font-size: 34px !important;
-    font-weight: 600;
-    text-transform: capitalize;
-    color: #189a46 !important;
-  }
-  
-  /* đổi màu khi rê chuột vào navbar */
-  header .nav-link:hover {
-    color: #189a46 !important;
-  }
-  
-  header .nav-item span:hover {
-    color: #189a46;
-  }
-  
-  header .nav-link span {
-    position: relative;
-  }
-  
-  /* tạo 1 div after của thẻ span (đường gạch chân màu xanh của các nút Home, About...)  */
-  header .nav-link span::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #189a46;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.5s;
-  }
-  
-  /* hover thẻ span thì chiều dài div after dài ra 100% */
-  header .nav-link span:hover::after {
-    opacity: 1;
-    visibility: visible;
-    width: 100%;
-  }
-  
-  header .nav-item span {
-    position: relative;
-  }
-  
-  /* tạo 1 div cho thẻ span trong dropdown */
-  header .nav-item span::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #189a46;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.5s;
-  }
-  
-  /* hover thẻ span thì chiều dài div after dài ra 100% */
-  header .nav-item span:hover::after {
-    opacity: 1;
-    visibility: visible;
-    width: 100%;
-  }
+  margin: 0;
+  padding: 0 20px;
+  font-size: 34px !important;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #189a46 !important;
+}
 
-  /* khi ở giao diện sáng, màu nền sáng, mặt trăng hiện, mặt trời ẩn*/
-#myBody{
-  background-color:white;
+/* đổi màu khi rê chuột vào navbar */
+header .nav-link:hover {
+  color: #189a46 !important;
+}
+
+header .nav-item span:hover {
+  color: #189a46;
+}
+
+header .nav-link span {
+  position: relative;
+}
+
+/* tạo 1 div after của thẻ span (đường gạch chân màu xanh của các nút Home, About...)  */
+header .nav-link span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #189a46;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+/* hover thẻ span thì chiều dài div after dài ra 100% */
+header .nav-link span:hover::after {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+}
+
+header .nav-item span {
+  position: relative;
+}
+
+/* tạo 1 div cho thẻ span trong dropdown */
+header .nav-item span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #189a46;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+/* hover thẻ span thì chiều dài div after dài ra 100% */
+header .nav-item span:hover::after {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+}
+
+/* khi ở giao diện sáng, màu nền sáng, mặt trăng hiện, mặt trời ẩn*/
+#myBody {
+  background-color: white;
 }
 
 #switchButton .fa-sun {
@@ -116,9 +116,9 @@ header .navbar-brand {
 /* khi ở giao diện tối, màu nền tối, mặt trời hiện, mặt trăng ẩn */
 /* thêm lớp dark vào thẻ body */
 /* <body id="myBody" cz-shortcut-listen="true" class="dark"> */
-.dark#myBody{
-  background-color:black;
-  color:white;
+.dark#myBody {
+  background-color: black;
+  color: white;
 }
 
 .dark #switchButton .fa-sun {
@@ -130,7 +130,6 @@ header .navbar-brand {
   color: #696969;
 }
 
-  
 /* ********************************************************************************FOOTER */
 /* format 4 font icon: facebook, twitter, google... */
 footer .main-social-footer-28 li {
@@ -176,229 +175,238 @@ footer .col-lg-6.col-md-5.footer-list-28.mt-5.text-secondary {
   padding-left: 24px;
 }
 .fixed-top {
-    position: fixed;
-    top:0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 /*breadscumb*/
 #breadscumb {
-    background-image: url(../img/5.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 1em 0;
-    position: relative;
-    margin-top: 90px;
-    z-index: 0;
-  }
+  background-image: url(../img/5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 1em 0;
+  position: relative;
+  margin-top: 90px;
+  z-index: 0;
+}
 
-  #breadscumb::before {
-    content: "";
-    position: absolute;
-    min-height: 100%;
-    background-color: #0c0c0c;
-    z-index: -1;
-  }
-  #breadscumb .breadscumb-all {
-    padding: 48px 0 48px 0;
-  }
-  
-  .breadscumb-all::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    min-height: 100%;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    background-color: #0c0c0c;
-    opacity: .6;
-  }
-  
-  .breadscumb-all-contents h2 {
-    text-align: center;
-    font-size: 50px;
-    font-weight: 600;
-    color: #fff;
-  }
-  
-  .breadscumb-all-contents .homeblog {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .breadscumb-all-contents a {
-    text-decoration: none;
-    color: #189A46;
-    font-size: 1.2em;
-    line-height: 1.5;
-    font-weight: 400;
-    text-transform: capitalize;
-  }
-  
-  .breadscumb-all-contents .blog {
-    font-size: 1.2em;
-    line-height: 1.5;
-    font-weight: 400;
-    text-transform: capitalize;
-    color: #fff;
-  }
-  
-  
-  #breadscumb {
-      background-image: url(../img/5.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      padding: 1em 0;
-      position: relative;
-      margin-top: 90px;
-      z-index: 0;
-    }
-    
-    #breadscumb::before {
-      content: "";
-      position: absolute;
-      min-height: 100%;
-      background-color: #0c0c0c;
-      z-index: -1;
-    }
-    #breadscumb .breadscumb-all {
-      padding: 48px 0 48px 0;
-    }
-    
-    .breadscumb-all::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      min-height: 100%;
-      left: 0;
-      right: 0;
-      z-index: -1;
-      background-color: #0c0c0c;
-      opacity: .6;
-    }
-    
-    .breadscumb-all-contents h2 {
-      text-align: center;
-      font-size: 50px;
-      font-weight: 600;
-      color: #fff;
-    }
-    
-    .breadscumb-all-contents .homeblog {
-      display: flex;
-      justify-content: center;
-    }
-    
-    .breadscumb-all-contents a {
-      text-decoration: none;
-      color: #189A46;
-      font-size: 1.2em;
-      line-height: 1.5;
-      font-weight: 400;
-      text-transform: capitalize;
-    }
-    
-    .breadscumb-all-contents .blog {
-      font-size: 1.2em;
-      line-height: 1.5;
-      font-weight: 400;
-      text-transform: capitalize;
-      color: #fff;
-    }  
-    /* Gallerry copy from blogpost code*/
+#breadscumb::before {
+  content: "";
+  position: absolute;
+  min-height: 100%;
+  background-color: #0c0c0c;
+  z-index: -1;
+}
+#breadscumb .breadscumb-all {
+  padding: 48px 0 48px 0;
+}
 
-    .blogpost {
-        padding: 48px 0 48px 0;
-        background-color: rgba(147, 107, 232, 0.05);
-      }
-      
-      .blogpost-all .blogpost-all-header h3 {
-        color: #f53626;
-        font-size: 18px;
-        font-weight: 400;
-        text-transform: uppercase;
-        line-height: 2em;
-        letter-spacing: 1px;
-        text-align: center;
-      }
-      
-      .blogpost-all .blogpost-all-header .tittle {
-        font-size: 40px;
-        font-weight: 600;
-        line-height: 48px;
-        text-transform: capitalize;
-        text-align: center;
-      }
-      main .item .card {
-        border: 0.5px solid transparent;
-        background-color: transparent;
-      }
-      main .item .card img{
-        border-radius: 20px;
-      }
-      main .item .card {
-        position: relative;
-        overflow: hidden;
-        
-      }
-      main .item .card::before {
-    position: absolute;
-    top: 0;
-    left:-100px;
-    z-index: 2;
-    display: block;
-    content: '';
-    width: 50%;
-    height: 100%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
-    transform: skewX(-25deg);
-    transition: 0.5s ease;
-    opacity: 0;
-      }
-      main .item .card:hover::before{
-        left:270px;
-        opacity: 1;
-      }
+.breadscumb-all::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #0c0c0c;
+  opacity: 0.6;
+}
+
+.breadscumb-all-contents h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.breadscumb-all-contents .homeblog {
+  display: flex;
+  justify-content: center;
+}
+
+.breadscumb-all-contents a {
+  text-decoration: none;
+  color: #189a46;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.breadscumb-all-contents .blog {
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+#breadscumb {
+  background-image: url(../img/5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 1em 0;
+  position: relative;
+  margin-top: 90px;
+  z-index: 0;
+}
+
+#breadscumb::before {
+  content: "";
+  position: absolute;
+  min-height: 100%;
+  background-color: #0c0c0c;
+  z-index: -1;
+}
+#breadscumb .breadscumb-all {
+  padding: 48px 0 48px 0;
+}
+
+.breadscumb-all::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #0c0c0c;
+  opacity: 0.6;
+}
+
+.breadscumb-all-contents h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.breadscumb-all-contents .homeblog {
+  display: flex;
+  justify-content: center;
+}
+
+.breadscumb-all-contents a {
+  text-decoration: none;
+  color: #189a46;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.breadscumb-all-contents .blog {
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #fff;
+}
+/* Gallerry copy from blogpost code*/
+
+.blogpost {
+  padding: 48px 0 48px 0;
+  background-color: rgba(147, 107, 232, 0.05);
+}
+
+.blogpost-all .blogpost-all-header h3 {
+  color: #f53626;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.blogpost-all .blogpost-all-header .tittle {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: capitalize;
+  text-align: center;
+}
+main .item .card {
+  border: 0.5px solid transparent;
+  background-color: transparent;
+}
+main .item .card img {
+  border-radius: 10px;
+}
+
+main .item .card {
+  position: relative;
+  overflow: hidden;
+}
+
+main .item .card::before {
+  content: "";
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  z-index: 2;
+  display: block;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  position: absolute;
+  transform: skewX(-25deg);
+  transition: all 0.5s;
+}
+
+@keyframes shine {
+  100% {
+    left: 100%;
+  }
+}
+
+main .item .card:hover::before {
+  animation: shine 0.75s;
+}
 
 /* *****************************************RESPONSIVE */
 @media screen and (max-width: 1200px) {
   /* **********************Header */
-header .container-fluid {
-  padding: 0 25px;
-}
+  header .container-fluid {
+    padding: 0 25px;
+  }
 
-body {
-  padding: 0 25px;
-}
-/* ***************************Header */
+  body {
+    padding: 0 25px;
+  }
+  /* ***************************Header */
 }
 
 @media screen and (max-width: 900px) {
-    /* **********************Header */
-    header .moon-sun {
-      position: absolute;
-      top: 15px;
-      right: 70px;
-    }
-  
-    header .container-fluid {
-      padding: 0 25px;
-    }
-  
-    body {
-      padding: 0 25px;
-    }
-    /* ***************************Header */
+  /* **********************Header */
+  header .moon-sun {
+    position: absolute;
+    top: 15px;
+    right: 70px;
+  }
+
+  header .container-fluid {
+    padding: 0 25px;
+  }
+
+  body {
+    padding: 0 25px;
+  }
+  /* ***************************Header */
 }
 
 @media screen and (max-width: 768px) {
-   /* ***************************Header */
-   header .moon-sun {
+  /* ***************************Header */
+  header .moon-sun {
     position: absolute;
     top: 15px;
     right: 70px;
@@ -430,8 +438,8 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-   /* *************************HEADER */
-   header .moon-sun {
+  /* *************************HEADER */
+  header .moon-sun {
     position: absolute;
     top: 15px;
     right: 70px;
