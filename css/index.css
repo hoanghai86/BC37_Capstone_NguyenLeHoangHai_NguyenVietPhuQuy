@@ -134,6 +134,22 @@ header .nav-item span:hover::after {
   color: #fff;
 }
 
+.dark .aboutUs .read{
+  color: #fff;
+}
+
+.dark .features .area-box:hover h4 a{
+  color: #fff !important;
+}
+
+.dark .features .area-box:hover .read{
+  color: #189a46;
+}
+
+.dark .features .area-box:hover p{
+  color: whitesmoke !important;
+}
+
 .dark .services .cwp4-text ul li{
   color: #fff;
 }
